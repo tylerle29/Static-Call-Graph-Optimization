@@ -1,0 +1,18 @@
+{
+  "methods_only_in_graph1": [],
+  "methods_only_in_graph2": [],
+  "callsite_differences": {},
+  "summary": {
+    "total_methods_graph1": 1431,
+    "total_methods_graph2": 1431,
+    "shared_methods": 1431,
+    "total_unique_methods": 1431,
+    "method_similarity_ratio": 1.0,
+    "methods_only_in_graph1": 0,
+    "methods_only_in_graph2": 0,
+    "methods_with_target_differences": 0,
+    "target_similarity_ratio": 1.0,
+    "total_unique_targets": 1415,
+    "shared_targets": 1415
+  }
+}

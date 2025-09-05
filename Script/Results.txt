@@ -1,0 +1,156 @@
+PS C:\Users\tyler\Desktop\Script> mv cg.zip cg.gz
+PS C:\Users\tyler\Desktop\Script> mv cg cg.json
+PS C:\Users\tyler\Desktop\Script> python script.py cg.json cg_og.json
+
+
+Axion -
+
+=== Summary ===
+  total_methods_graph1: 6025
+  total_methods_graph2: 6058
+  shared_methods: 5899
+  total_unique_methods: 6184
+  method_similarity_ratio: 0.9539
+  methods_only_in_graph1: 126
+  methods_only_in_graph2: 159
+  methods_with_target_differences: 0
+  target_similarity_ratio: 0.9758
+  total_unique_targets: 5985
+  shared_targets: 5840
+
+Batik -
+
+=== Summary ===
+  total_methods_graph1: 2957
+  total_methods_graph2: 14471
+  shared_methods: 2031
+  total_unique_methods: 15397
+  method_similarity_ratio: 0.1319
+  methods_only_in_graph1: 926
+  methods_only_in_graph2: 12440
+  methods_with_target_differences: 0
+  target_similarity_ratio: 0.7798
+  total_unique_targets: 2457
+  shared_targets: 1916
+
+Batik 2 -
+
+=== Summary ===
+  total_methods_graph1: 14433
+  total_methods_graph2: 14531
+  shared_methods: 14376
+  total_unique_methods: 14588
+  method_similarity_ratio: 0.9855
+  methods_only_in_graph1: 57
+  methods_only_in_graph2: 155
+  methods_with_target_differences: 0
+  target_similarity_ratio: 0.9929
+  total_unique_targets: 14416
+  shared_targets: 14314
+
+
+Jasml -
+
+=== Summary ===
+  total_methods_graph1: 2957
+  total_methods_graph2: 2956
+  shared_methods: 2951
+  total_unique_methods: 2962
+  method_similarity_ratio: 0.9963
+  methods_only_in_graph1: 6
+  methods_only_in_graph2: 5
+  methods_with_target_differences: 0
+  target_similarity_ratio: 0.9915
+  total_unique_targets: 2943
+  shared_targets: 2918
+
+Xerces
+
+=== Summary ===
+  total_methods_graph1: 9220
+  total_methods_graph2: 9272
+  shared_methods: 9178
+  total_unique_methods: 9314
+  method_similarity_ratio: 0.9854
+  methods_only_in_graph1: 42
+  methods_only_in_graph2: 94
+  methods_with_target_differences: 0
+  target_similarity_ratio: 0.9939
+  total_unique_targets: 9196
+  shared_targets: 9140
+ 
+Xalan - 
+
+
+Just XSL
+
+total_methods_graph1: 1431
+  total_methods_graph2: 1431
+  shared_methods: 1431
+  total_unique_methods: 1431
+  method_similarity_ratio: 1.0
+  methods_only_in_graph1: 0
+  methods_only_in_graph2: 0
+  methods_with_target_differences: 0
+  target_similarity_ratio: 1.0
+  total_unique_targets: 1415
+  shared_targets: 1415
+
+
+Just XML
+=== Target Differences in Shared Methods ===
+
+=== Summary ===
+  total_methods_graph1: 1431
+  total_methods_graph2: 1345
+  shared_methods: 1344
+  total_unique_methods: 1432
+  method_similarity_ratio: 0.9385
+  methods_only_in_graph1: 87
+  methods_only_in_graph2: 1
+  methods_with_target_differences: 0
+  target_similarity_ratio: 0.9814
+  total_unique_targets: 1345
+  shared_targets: 1320
+
+Both XML and XSL fuzzed but for small amount of time
+=== Summary ===
+  total_methods_graph1: 1364
+  total_methods_graph2: 2688
+  shared_methods: 1344
+  total_unique_methods: 2708
+  method_similarity_ratio: 0.4963
+  methods_only_in_graph1: 20
+  methods_only_in_graph2: 1344
+  methods_with_target_differences: 0
+  target_similarity_ratio: 0.9531
+  total_unique_targets: 1386
+  shared_targets: 1321
+
+Both XML XSL inputs / better designed entrypoint
+
+
+=== Summary ===
+  total_methods_graph1: 1364
+  total_methods_graph2: 8187 -- 
+  shared_methods: 1364
+  total_unique_methods: 8187
+  method_similarity_ratio: 0.1666
+  methods_only_in_graph1: 0
+  methods_only_in_graph2: 6823
+  methods_with_target_differences: 0
+  target_similarity_ratio: 0.7755
+  total_unique_targets: 1724
+  shared_targets: 1337
+
+Both XML and XSL fuzzed but for longer time / better designed entrypoint
+=== Target Differences in Shared Methods ===
+
+=== Target Differences in Shared Methods ===
+
+  methods_only_in_graph1: 786 (Transformation Entrypoint)
+  methods_only_in_graph2: 245 (XSTL and XML Entrypoint fuzzing both)
+  methods_only_in_graph3: 89 (XML)
+  methods_only_in_graph4: 1346 (Serialization Entrypoint)
+  methods_only_in_graph5: 22 (XSL)
+  Total unique methods: 11627

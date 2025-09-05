@@ -1,0 +1,31 @@
+{
+  "methods_only_in_graph1": [
+    "Lcom/jasml/classes/Constant_Float;::toString() -> Ljava/lang/String;",
+    "Ljava/io/DataOutputStream;::writeDouble(D) -> V",
+    "Ljava/io/PrintStream;::println(Ljava/lang/String;) -> V",
+    "Ljava/lang/Double;::doubleToLongBits(D) -> J",
+    "Ljava/lang/StringIndexOutOfBoundsException;::<init>(I) -> V",
+    "Ljava/net/Inet4AddressImpl;::<init>() -> V"
+  ],
+  "methods_only_in_graph2": [
+    "Ljava/net/Inet6AddressImpl;::<init>() -> V",
+    "Ljava/util/zip/Inflater;::end() -> V",
+    "Ljava/util/zip/Inflater;::end(J) -> V",
+    "Ljava/util/zip/Inflater;::finalize() -> V",
+    "Ljava/util/zip/ZStreamRef;::clear() -> V"
+  ],
+  "callsite_differences": {},
+  "summary": {
+    "total_methods_graph1": 2957,
+    "total_methods_graph2": 2956,
+    "shared_methods": 2951,
+    "total_unique_methods": 2962,
+    "method_similarity_ratio": 0.9963,
+    "methods_only_in_graph1": 6,
+    "methods_only_in_graph2": 5,
+    "methods_with_target_differences": 0,
+    "target_similarity_ratio": 0.9915,
+    "total_unique_targets": 2943,
+    "shared_targets": 2918
+  }
+}
