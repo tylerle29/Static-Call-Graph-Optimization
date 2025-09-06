@@ -1,6 +1,7 @@
 # Static Call Graph Optimization
 
- The use of this tool differs tries to create dynamic ground truths with multiple entry points. This is an expansion on a project by Dr. Helm and his lab; however, it varies greatly in methodology.
+This tool tries to create dynamic ground truths with multiple entry points. This is an expansion on a project by Dr. Helm and his lab; however, it varies greatly in methodology.
+<img width="1972" height="776" alt="image" src="https://github.com/user-attachments/assets/d96e6119-3919-497e-8a51-67fbcb3ab5c9" />
 
 Download the tar file if you want to recreate this experiment. Results for test_cases created through fuzzing and results are shown in the GIT Project.
 
