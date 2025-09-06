@@ -1,9 +1,6 @@
 import json
 import sys
 
-
-import json
-
 def load_call_graph(path):
     with open(path) as f:
         return json.load(f)
