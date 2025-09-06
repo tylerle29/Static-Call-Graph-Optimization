@@ -35,4 +35,4 @@ for name in "${!xsl_files[@]}"; do
   fi
 done
 
-echo "✅ Done. Created $count matched pairs in '$OUT_DIR'"
+echo "Done. Created $count matched pairs in '$OUT_DIR'"
