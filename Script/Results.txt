@@ -1,8 +1,3 @@
-PS C:\Users\tyler\Desktop\Script> mv cg.zip cg.gz
-PS C:\Users\tyler\Desktop\Script> mv cg cg.json
-PS C:\Users\tyler\Desktop\Script> python script.py cg.json cg_og.json
-
-
 Axion -
 
 === Summary ===
@@ -147,6 +142,13 @@ Both XML and XSL fuzzed but for longer time / better designed entrypoint
 === Target Differences in Shared Methods ===
 
 === Target Differences in Shared Methods ===
+
+
+### Script Run Commands ###
+mv cg.zip cg.gz
+mv cg cg.json
+PS C:\Users\tyler\Desktop\Script> python script.py cg.json cg_og.json
+
 
   methods_only_in_graph1: 786 (Transformation Entrypoint)
   methods_only_in_graph2: 245 (XSTL and XML Entrypoint fuzzing both)
