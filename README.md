@@ -1,5 +1,6 @@
 # Static Call Graph Optimization
-This is an expansion on a project by Dr. Helm and his lab. The use of this tool differs in purpose. It tries to create dynamic ground truths with multiple entry points.
+
+ The use of this tool differs tries to create dynamic ground truths with multiple entry points. This is an expansion on a project by Dr. Helm and his lab; however, it varies greatly in methodology.
 
 Download the tar file if you want to recreate this experiment. Results for test_cases created through fuzzing and results are shown in the GIT Project.
 
@@ -48,6 +49,9 @@ contained in the XCorpus benchmark.
 - This can be quickly edited to include other benchmarks.
 9) Edit the dynamic call graph generator based on your own needs. If your 
 entry point is designed well, this should work on its own.
+
+
+
 10) For generation of dynamic call graphs, run in an Ubuntu shell at 
 `/projects/<project>’
 - just clean
